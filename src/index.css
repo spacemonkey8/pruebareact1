@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.box {
+    width: 29%;
+    box-shadow: 2px 5px 15px 0px #ffffff, 5px 5px 15px 5px rgba(251, 249, 249, 0);
+    border-radius: 20px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.item {
+    color: rgb(247, 250, 247);
+    font-size: small;
+
+}
+.navbar {
+    border-radius: 5PX;
+    margin: 12px;
+    height: 37px;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 5px 15px 0px #0c0000, 5px 5px 15px 5px rgba(251, 249, 249, 0);
+    
+    
+    
+}
+.titulo {
+    margin-bottom: 19px;
+    margin-left: 8px;
+   
+}
+.inputs {
+    
+    margin-right: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+
+}
+.foot {
+    background-color: blue;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    padding: 2px;
+    font-size: large;
+    box-shadow: 2px 5px 15px 0px #0c0000, 5px 5px 15px 5px rgba(251, 249, 249, 0);
+    border-radius: 5px;
+
 }
